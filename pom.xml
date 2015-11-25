@@ -12,7 +12,7 @@
 	<properties>
 		<!-- 指明使用utf-8编码 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<!-- 指明使用JDK8 -->
+		<!-- 指明使用JDK版本 -->
 		<project.build.targetJDK>1.6</project.build.targetJDK>
 		<!-- Spring版本号 -->
 		<spring.version>4.1.4.RELEASE</spring.version>
@@ -268,6 +268,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>somnus</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/java</directory>
@@ -352,7 +353,6 @@
 				<configuration>
 					<path>/</path>
 					<port>8181</port>
-					<finalName>sogood360</finalName>
 					<uriEncoding>${project.build.sourceEncoding}</uriEncoding>
 					<!-- 本地Tomcat -->
 					<url>http://localhost:8181/manager/text</url>
