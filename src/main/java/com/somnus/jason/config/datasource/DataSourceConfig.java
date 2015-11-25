@@ -1,5 +1,5 @@
 /**
- * sogood360.com Inc.
+ * kany.me Inc.
  * Copyright (c) 2015-2015 All Rights Reserved.
  */
 package com.somnus.jason.config.datasource;
