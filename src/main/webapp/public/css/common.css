@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: "Microsoft YaHei", 微软雅黑, Helvetica, Arial, Lucida Grande, Tahoma, sans-serif;
+	font-size: 12px;
+	-ms-word-break: break-all;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+body a {
+	color: rgb(196, 79, 79);
+	text-decoration: none;
+}
+
+body a:hover {
+	color: rgb(196, 79, 79);
+	text-decoration: none;
+}
+div.main{width: 90%;margin: 0px auto; min-width: 1280px;}
+
+div.main div.content-left {float:left;padding: 5.5% 0px 5.5% 0px; min-width: 80px;width: 15%;}
+div.main div.content-left ul.mainul{list-style: none;padding: 0px;margin: 0px; padding-right: 10px;}
+div.main div.content-left ul.mainul li{padding: 0px; margin-bottom:2px; line-height: 48px;font-size: 1.65em;color: rgb(240, 240, 240);border-left: 10px solid;padding-left: 9px;background: rgb(240, 240, 240);}
+div.main div.content-left ul.mainul li:hover,div.main div.content-left ul.mainul li.hover{color: rgb(196, 79, 79);}
+div.main div.content{float:right; padding: 5.5% 0px 5.5% 0px;}
+div.main div.content div.title{font-size: 1.75em;color: rgb(196, 79, 79);border-left: 10px solid;padding-left: 9px;background: rgb(240, 240, 240);padding: 0.5em;}
+div.main div.content table.list-table{margin-top:30px; width:100%; border: 1px solid #cbcbcb;border-width: 0 0 0 1px;background:#ffffff;table-layout:fixed;}
+div.main div.content table.list-table th, div.main div.content table.list-table td {border: 1px solid #cbcbcb; border-width:0 1px 1px 0; padding: 12px 3px 13px; _padding: 14px 3px 11px; text-align: center; line-height: 18px; word-break: break-all; word-wrap: break-word;}
+div.main div.content table.list-table th{border-width:1px 1px 1px 0; font-weight:bold; background:#e5e5e5;}
+
+div.main div.content ul.list-ul{width:100%; list-style: none;margin: 0px; padding: 0px;}
+div.main div.content ul.list-ul li{width:100%; margin: 0px; padding: 0px;}
+div.main div.content ul.list-ul table.list-table{margin-top:0px; width:100%; border: 1px solid #cbcbcb;border-width: 0 0 0 1px;background:#ffffff;table-layout:fixed;}
+div.main div.content ul.list-ul table.list-table tr:hover{background-color: #FFFB5A;} 
+
+div.main div.content table.modified-table{margin-top:30px; width:100%; background:#ffffff;table-layout:fixed;}
+div.main div.content table.modified-table th, div.main div.content table.modified-table td {/* border: 1px solid #cbcbcb; border-width:0 1px 1px 0; */ padding: 12px 3px 13px; _padding: 14px 3px 11px; line-height: 18px; word-break: break-all; word-wrap: break-word; vertical-align: bottom;}
+div.main div.content table.modified-table th{/* border-width:1px 1px 1px 0; */ }
+div.main div.content table.modified-table font{font-weight: bold; font-size: 14px;float: right;}
+div.main div.content table.modified-table input.text{width: 90%; border: 1px solid #cbcbcb; border-width: 0px 0px 1px 0px;height: 40px;outline:none;line-height: 60px;font-size: 16px;float: left;}
+div.main div.content table.modified-table td.td-radio{}
+div.main div.content table.modified-table td.td-radio label{line-height: 23px; min-width: 80px; padding-right: 20px;}
+div.main div.content table.modified-table td .td-select{min-width: 240px; height: 28px;}
+div.main div.content table.modified-table td input[type="submit"],div.main div.content table.modified-table td input[type="button"]{height: 36px;background-color: #cbcbcb;border: 1px solid #cbcbcb;min-width: 120px;}
+div.main div.content table.modified-table td input[type="submit"]:hover,div.main div.content table.modified-table td input[type="button"]:hover{height: 36px;background-color: #fdce22;border: 1px solid #fdce22;min-width: 120px;color: white;font-weight: bold;}
